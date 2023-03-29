@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Header Section Start */
+h1 {
+    font-size: 16rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    margin: 20px auto 152px auto;
+    width: 720px;
+    text-align: center;
+
+}
+
+header p {
+    margin-bottom: 60px;
+    font-size: 2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header h3 {
+    margin-bottom: 60px;
+    font-size: 10rem;
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+header img {
+    margin-bottom: 118px;
+}
+/* Header Section End */
+
+main {
+    height: 100%;
+}
+
+/* S1 Section Start */
+
+#s1 {
+    height: 826px;
+    width: 100vw;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./Bilder/portfolio2.jpg);
+    background-size: cover;
+}
+
+/* S1 Section End */
+
+/* Section Content White Start */
+.section-content {
+    height: fit-content;
+    padding: 150px 220px 0px 220px;
+
+}
+
+.section-content p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    margin-bottom: 20px;
+    
+}
+
+.section-content h2 {
+    font-family: 'Didact Gothic';
+    font-weight: 400;
+    font-size: 11.2rem;
+    line-height: 14.7rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.section-content h4 {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    color: #9E9E9E;
+}
+/* Section Content White End */
+
+/* Section Dive-In White Start */
+.dive-in {
+    margin: 80px 120px auto 220px;
+}
+
+.dive-in:hover a {
+    background-color: white;
+    color: black;
+}
+
+.dive-in:hover h5 {
+    color: white;
+}
+
+.dive-in a {
+    width: fit-content;
+    display: block;
+    border: 2px solid #9E9E9E;
+    padding: 16px 26px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fjalla One';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.dive-in h5 {
+    margin: 10px 10px 10px 10px;
+    font-family: 'Fjalla One';
+    font-weight: 400;
+    font-size: 165px;
+    line-height: 207px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #9e9e9e74;
+}
+/* Section Dive-In White End */
+
+/* S2 Section Start */
+
+#s2 {
+    height: 1056px;
+    width: 100vw;
+    background: url(./Bilder/portfolio3.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* S2 Section End */
+
+/* Section Content Black Start */
+.section-content-black {
+    height: fit-content;
+    padding: 250px 220px 0px 220px;
+
+}
+
+.section-content-black p {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    margin-bottom: 20px;
+    
+}
+
+.section-content-black h2 {
+    font-family: 'Didact Gothic';
+    font-weight: 400;
+    font-size: 11.2rem;
+    line-height: 14.7rem;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.section-content-black h4 {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+
+    color: #9E9E9E;
+}
+/* Section Content Black End */
+
+/* Section Dive-In Black Start */
+.dive-in-black {
+    margin: 80px 120px auto 220px;
+}
+
+.dive-in-black:hover a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.dive-in-black:hover h5 {
+    color: rgb(0, 0, 0);
+    
+}
+
+.dive-in-black a {
+    width: fit-content;
+    display: block;
+    border: 2px solid #222222;
+    padding: 16px 26px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Fjalla One';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.dive-in-black h5 {
+    margin: 10px 10px 10px 10px;
+    font-family: 'Fjalla One';
+    font-weight: 400;
+    font-size: 16.5rem;
+    line-height: 20.7px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: rgba(102, 102, 102, 1);
+    ;
+}
+/* Section Dive-In Black End */
+
+/* S3 Section Start */
+
+#s3 {
+    height: 826px;
+    width: 100vw;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./Bilder/portfolio4.jpg);
+    background-size: cover;
+}
+
+/* S3 Section End */
+
+/* S4 Section Start */
+
+#s4 {
+    height: 1056px;
+    width: 100vw;
+    background: url(./Bilder/portfolio5.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* S4 Section End */
+
+/* S5 Section Start */
+
+#s5 {
+    height: 931px;
+    width: 100vw;
+    background: black;
+    background-size: cover;
+    background-position: center center;
+    padding: 130px 0 0 0;
+}
+
+#s5 h2 {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 211px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+
+#s5 p {
+    margin: 150px 100px 0 640px;
+    width: max(700px);
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #666666;
+}
+
+#s5 a {
+    text-decoration: none;
+    margin: 70px 376px 100px 640px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.06em;
+    color: #FFFFFF;
+}
+
+#s5 a:hover {
+    text-decoration: underline;
+}
+
+/* S5 Section End */
+
+/* Footer Start */
+
+footer {
+    margin: 230px auto 130px auto;
+    width: 720px;
+    text-align: center;
+
+}
+
+footer ul {
+    list-style: none;
+    
+}
+
+footer li  {
+    margin-bottom: 150px;
+    
+
+}
+
+footer li:last-of-type {
+    margin-bottom: 230px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Didact Gothic';
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 210px;
+    text-align: center;
+    color: #000000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Footer End */
+
+/* Heart Animation Start */
+
+@keyframes heart-pulse {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    70% {
+      transform: scale(0.65);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+
+#heart {
+    animation: heart-pulse 0.9s infinite ease-out;
+}
+
+/* Heart Animation End */
